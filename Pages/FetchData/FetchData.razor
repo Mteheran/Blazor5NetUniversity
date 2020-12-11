@@ -11,8 +11,8 @@
     <p><em>Loading...</em></p>
 }
 else
-{
-    <table class="table">
+{   
+    <table class="table"  >
         <thead>
             <tr>
                 <th>Date</th>
@@ -24,18 +24,24 @@ else
         <tbody>
             @foreach (var forecast in forecasts)
             {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
+                @RenderGridRow(forecast)
             }
         </tbody>
     </table>
 }
 
 @code {
+    
+    RenderFragment<WeatherForecast> RenderGridRow = forecast => __builder=>
+    {
+         <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+        </tr>
+    };
+    
     private WeatherForecast[] forecasts;
 
     protected override async Task OnInitializedAsync()

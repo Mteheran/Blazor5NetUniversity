@@ -6,7 +6,7 @@ using blazor5dotnet.ViewModels;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Logging;
 
-namespace blazor5dotnet.Pages
+namespace blazor5dotnet.Pages.Counter
 {
     public partial class Counter : ComponentBase
     {
