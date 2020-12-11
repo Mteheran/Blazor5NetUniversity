@@ -11,7 +11,8 @@
     <p><em>Loading...</em></p>
 }
 else
-{   
+{ 
+    <div style="height:400px;overflow-y:scroll"> 
     <table class="table"  >
         <thead>
             <tr>
@@ -22,12 +23,12 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
-            {
+            <Virtualize Items="@forecasts" Context="forecast">
                 @RenderGridRow(forecast)
-            }
+            </Virtualize>
         </tbody>
     </table>
+    </div>
 }
 
 @code {
