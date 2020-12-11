@@ -1,25 +1,9 @@
 @page "/counter"
-@inject ILogger<Counter> logger;
 
 <h1>Counter</h1>
 
-<p>Current count: @currentCount</p>
+<p>Current count: @vm.currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
-@code {
-    private int currentCount = 0;
 
-    protected  override async Task OnInitializedAsync()
-    {
-        logger.LogInformation("Iniciando compoenente");
-        Console.WriteLine("Iniciando Componente");
-    }
-
-    private void IncrementCount()
-    {
-        logger.LogInformation($"Incrementando count en 1 {currentCount}");
-        currentCount++;
-        logger.LogInformation($"Valor de count incrementado {currentCount}");
-    }
-}
