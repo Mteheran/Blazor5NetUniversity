@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using blazor5dotnet.Services;
 
 namespace blazor5dotnet
 {
@@ -17,7 +18,10 @@ namespace blazor5dotnet
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
+            builder.Logging.SetMinimumLevel(LogLevel.Critical);
+
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<IWeatherForeCastService, WeatherForeCastService>();
 
             await builder.Build().RunAsync();
         }
