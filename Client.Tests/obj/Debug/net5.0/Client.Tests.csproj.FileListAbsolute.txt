@@ -1,0 +1,5 @@
+C:\Personal\NetUniversity\blazornet5\Blazor5NetUniversity\client.tests\obj\Debug\net5.0\Client.Tests.csprojAssemblyReference.cache
+C:\Personal\NetUniversity\blazornet5\Blazor5NetUniversity\client.tests\obj\Debug\net5.0\Client.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\NetUniversity\blazornet5\Blazor5NetUniversity\client.tests\obj\Debug\net5.0\Client.Tests.AssemblyInfoInputs.cache
+C:\Personal\NetUniversity\blazornet5\Blazor5NetUniversity\client.tests\obj\Debug\net5.0\Client.Tests.AssemblyInfo.cs
+C:\Personal\NetUniversity\blazornet5\Blazor5NetUniversity\client.tests\obj\Debug\net5.0\Client.Tests.csproj.CoreCompileInputs.cache
