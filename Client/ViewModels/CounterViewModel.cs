@@ -7,6 +7,6 @@ namespace blazor5dotnet.ViewModels
 {
     public class CounterViewModel
     {
-        public int currentCount {get;set;} = 0;
+        public int currentCount {get;set;} = 2;
     }
 }

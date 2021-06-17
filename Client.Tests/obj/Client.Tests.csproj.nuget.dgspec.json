@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\Client.Tests.csproj": {}
+    "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\Client.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\Client.Tests.csproj": {
+    "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\Client.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\Client.Tests.csproj",
+        "projectUniqueName": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\Client.Tests.csproj",
         "projectName": "Client.Tests",
-        "projectPath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\Client.Tests.csproj",
+        "projectPath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\Client.Tests.csproj",
         "packagesPath": "C:\\Users\\Migue\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\obj\\",
+        "outputPath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBoC1sW//Wse5VNKF4ke2xu22uaVm+1wcDyvtcrp7Im3Pjjb9zcsKvaZXw3qoZTSO4G5ESXjdUaeGon2n1xXew==",
+  "dgSpecHash": "ch1mkGa9o/qn910JnLPa0BkYFeuBWAMhgKW09+aMWshlY3weA1ZmEL4DhCVYk7F37f4x7e21elRphUJ/NOujWw==",
   "success": true,
-  "projectFilePath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\client.tests\\Client.Tests.csproj",
+  "projectFilePath": "C:\\Personal\\NetUniversity\\blazornet5\\Blazor5NetUniversity\\Client.tests\\Client.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Migue\\.nuget\\packages\\anglesharp\\0.15.0\\anglesharp.0.15.0.nupkg.sha512",
     "C:\\Users\\Migue\\.nuget\\packages\\anglesharp.css\\0.15.0\\anglesharp.css.0.15.0.nupkg.sha512",
